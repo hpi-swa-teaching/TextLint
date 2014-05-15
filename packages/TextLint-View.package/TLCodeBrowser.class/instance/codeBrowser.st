@@ -18,7 +18,6 @@ codeBrowser
 							row: #rationale span: 2;
 							row: #export size: 45] span: 3 ];
 			row: #code.
-	
 	self filesPaneOn: browser.
 	self stylePaneOn: browser.
 	self issuesPaneOn: browser.

@@ -1,0 +1,3 @@
+running
+color
+	^ TextColor yellow

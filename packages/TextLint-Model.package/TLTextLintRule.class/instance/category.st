@@ -1,0 +1,3 @@
+running
+category
+	self subclassResponsibility

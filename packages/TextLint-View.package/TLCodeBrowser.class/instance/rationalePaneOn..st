@@ -8,7 +8,9 @@ rationalePaneOn: aBrowser
 							title: 'Rationale'; 
 							display: [:r | 
 								r isCollection
-									ifTrue: [ r first rule rationale ]
+									ifTrue: [ r first isCollection
+												ifTrue: [r first first rule category]
+												ifFalse: [r first rule rationale ]]
 									ifFalse: [ r rule rationale ] ] ].
 	
 	^aBrowser

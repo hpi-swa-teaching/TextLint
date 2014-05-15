@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"allRules" : "lr 10/25/2010 19:38" },
+		"allRules" : "lr 10/25/2010 19:38",
+		"categories" : "JonasKeutel 5/6/2014 23:16" },
 	"instance" : {
-		"name" : "lr 9/8/2010 10:44",
+		"category" : "JonasKeutel 5/6/2014 19:17",
+		"name" : "JonasKeutel 5/6/2014 09:19",
 		"rationale" : "JorgeRessia 4/2/2010 17:44",
 		"runOn:" : "lr 11/2/2010 07:43",
 		"runOnDocument:" : "lr 11/2/2010 07:43",
