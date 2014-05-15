@@ -1,3 +1,3 @@
 *textlint-view
 highlightAttribute
-	^ TLTextLintRule categories at: self rule category
+	^ TLTextLintRule categorieColors at: self rule category

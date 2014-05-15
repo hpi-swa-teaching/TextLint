@@ -15,7 +15,8 @@ issuesPaneOn: browser
 							do: [ :stream | stream contents ].
 						results := (textLintChecker parse: fileContents) results.
 						
-						firstResults := (results groupedBy: [ :each | each rule category ]) asOrderedCollection.
+						firstResults := (results groupedBy: [ :each | each rule class categorieDescriptions 
+																at: each rule category ]) asOrderedCollection.
 						
 						groupedByCategory := OrderedCollection new.
 						firstResults do: [ :each | groupedByCategory add: each asOrderedCollection].
@@ -34,7 +35,8 @@ issuesPaneOn: browser
 				format: [ :each | 
 					each isCollection
 						ifTrue: [ each first isCollection
-									ifTrue: [each first first rule category]
+									ifTrue: [each first first rule class categorieDescriptions 
+												at: each first first rule category]
 									ifFalse: [each first rule name] ]
 						ifFalse: [
 							String streamContents: [ :stream | stream nextPutAll: (each element processFor: self)] ] ];
