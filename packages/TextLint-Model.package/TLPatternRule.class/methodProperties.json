@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"anchorBegin" : "lr 11/2/2010 12:24",
+		"markup" : "lr 11/3/2010 14:45",
+		"matchingPattern" : "lr 11/4/2010 10:38",
+		"matchingString" : "lr 11/4/2010 10:37",
+		"newPattern" : "lr 12/21/2011 18:07",
+		"pattern" : "lr 9/5/2011 19:03",
+		"punctuation" : "lr 10/31/2010 14:19",
+		"punctuation:" : "lr 10/31/2010 14:19",
+		"punctuationIn:" : "JorgeRessia 11/1/2010 10:23",
+		"punctuationSatisfying:" : "JorgeRessia 11/1/2010 10:17",
+		"runOnSentence:" : "JorgeRessia 11/1/2010 11:23",
+		"separator" : "lr 11/3/2010 14:45",
+		"separators" : "lr 10/31/2010 13:58",
+		"whitespace" : "lr 11/3/2010 14:45",
+		"word" : "lr 10/31/2010 14:19",
+		"word:" : "lr 10/31/2010 14:20",
+		"wordIn:" : "lr 10/31/2010 14:20",
+		"wordSatisfying:" : "JorgeRessia 5/10/2011 14:57",
+		"wordTextSatisfying:" : "JorgeRessia 5/10/2011 14:57" } }

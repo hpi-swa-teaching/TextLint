@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-View-Wizard",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"progBar" ],
+	"name" : "TLWizardGUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Tests-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLEnormityRuleTest2",
+	"pools" : [
+		 ],
+	"super" : "TLAbstractRuleTest",
+	"type" : "normal" }

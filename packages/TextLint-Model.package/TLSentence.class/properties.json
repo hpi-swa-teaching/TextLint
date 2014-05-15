@@ -1,0 +1,16 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"syntacticElements",
+		"phrasesCache",
+		"sequencesCache" ],
+	"name" : "TLSentence",
+	"pools" : [
+		 ],
+	"super" : "TLElement",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLPunctuationMark",
+	"pools" : [
+		 ],
+	"super" : "TLSyntacticElement",
+	"type" : "normal" }

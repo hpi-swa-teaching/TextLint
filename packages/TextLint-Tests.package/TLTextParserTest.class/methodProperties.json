@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "lr 3/25/2012 10:43",
+		"parse:" : "lr 11/3/2010 16:32",
+		"parse:tokenizer:" : "lr 11/3/2010 16:28",
+		"testAllCharacters" : "lr 9/7/2011 20:54",
+		"testDeformedParagraphs" : "lr 9/7/2011 20:54",
+		"testHtmlTokenziation" : "lr 5/27/2010 16:38",
+		"testIENotASentence" : "DamienCassou 3/23/2012 17:40",
+		"testLatexCommandTokenziation" : "lr 9/7/2011 20:56",
+		"testLatexListingTokenziation" : "lr 9/7/2011 20:55",
+		"testLatexMath" : "lr 9/9/2011 20:21",
+		"testLatexTokenziation" : "lr 5/27/2010 16:37",
+		"testLatexTokenziation2" : "lr 9/30/2010 08:27",
+		"testLongParagraph" : "lr 4/8/2010 13:48",
+		"testSimpleSentence" : "lr 4/8/2010 13:49",
+		"testTextWithPunctuationMarks" : "JorgeRessia 4/7/2010 16:15",
+		"testTwoParagraphs" : "lr 9/7/2011 20:54" } }

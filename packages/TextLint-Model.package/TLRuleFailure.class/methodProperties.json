@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"on:at:" : "JorgeRessia 4/6/2010 15:54" },
+	"instance" : {
+		"element" : "JorgeRessia 4/6/2010 16:00",
+		"initializeOn:at:" : "JorgeRessia 4/6/2010 15:55",
+		"isRuleFailure" : "JorgeRessia 5/26/2010 11:40",
+		"printOn:" : "lr 4/8/2010 15:36",
+		"rule" : "JorgeRessia 4/6/2010 16:00" } }

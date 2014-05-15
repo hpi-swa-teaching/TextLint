@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLContinuousWordRepetitionRule",
+	"pools" : [
+		 ],
+	"super" : "TLPatternRule",
+	"type" : "normal" }

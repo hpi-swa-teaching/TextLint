@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCreation" : "JorgeRessia 4/7/2010 14:24",
+		"testInterval" : "JorgeRessia 4/9/2010 11:53",
+		"testIsEndOfParagraph" : "lr 9/7/2011 20:57",
+		"testIsWhitespace" : "DamienCassou 11/21/2011 20:42",
+		"testPrintstring" : "DamienCassou 11/21/2011 20:59",
+		"testText" : "JorgeRessia 4/7/2010 14:25" } }

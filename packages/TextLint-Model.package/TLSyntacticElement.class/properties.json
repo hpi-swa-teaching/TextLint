@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token" ],
+	"name" : "TLSyntacticElement",
+	"pools" : [
+		 ],
+	"super" : "TLElement",
+	"type" : "normal" }

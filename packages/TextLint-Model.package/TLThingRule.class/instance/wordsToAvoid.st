@@ -1,0 +1,3 @@
+running
+wordsToAvoid
+	^ #('thing' 'things')

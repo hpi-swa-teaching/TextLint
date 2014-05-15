@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"isAbstract" : "lr 9/9/2011 20:25" },
+	"instance" : {
+		"assertCorrect" : "DamienCassou 9/5/2011 14:25",
+		"assertCorrect:" : "DamienCassou 9/5/2011 14:27",
+		"assertProblem" : "DamienCassou 9/5/2011 14:25",
+		"assertProblem:" : "DamienCassou 9/5/2011 14:39",
+		"createDocument" : "DamienCassou 9/5/2011 09:37",
+		"createParagraph" : "DamienCassou 9/5/2011 09:52",
+		"createSentence" : "DamienCassou 9/5/2011 09:52",
+		"createWord:" : "DamienCassou 9/5/2011 09:51",
+		"ruleUnderTest" : "DamienCassou 9/5/2011 09:42",
+		"runRule" : "DamienCassou 9/5/2011 14:25",
+		"setUp" : "DamienCassou 9/5/2011 09:36" } }

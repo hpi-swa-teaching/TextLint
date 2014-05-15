@@ -1,0 +1,17 @@
+{
+	"category" : "TextLint-Tests-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DamienCassou 9/5/2011 09:51",
+	"instvars" : [
+		"words",
+		"sentences",
+		"paragraphs",
+		"document" ],
+	"name" : "TLAbstractRuleTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

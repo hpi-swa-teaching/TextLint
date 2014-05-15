@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sentences" ],
+	"name" : "TLParagraph",
+	"pools" : [
+		 ],
+	"super" : "TLElement",
+	"type" : "normal" }

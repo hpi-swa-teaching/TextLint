@@ -1,0 +1,15 @@
+{
+	"category" : "TextLint-Model-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"rules" ],
+	"name" : "TLWritingStyle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

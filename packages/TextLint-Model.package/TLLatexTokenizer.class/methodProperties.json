@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"canTokenize:" : "lr 9/9/2011 20:41" },
+	"instance" : {
+		"consumeCommand:" : "lr 5/31/2010 07:36",
+		"consumeEnvironment:" : "lr 5/31/2010 07:35",
+		"ignoredCommands" : "lr 12/8/2011 20:13",
+		"ignoredEnvironments" : "lr 12/8/2011 20:13",
+		"markup" : "lr 9/9/2011 20:20",
+		"punctuationGroups" : "lr 9/5/2011 18:35" } }

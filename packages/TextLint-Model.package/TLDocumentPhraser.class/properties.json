@@ -1,0 +1,19 @@
+{
+	"category" : "TextLint-Model-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"document",
+		"documentTerminator",
+		"paragraph",
+		"paragraphTerminator",
+		"sentence",
+		"sentenceTerminator" ],
+	"name" : "TLDocumentPhraser",
+	"pools" : [
+		 ],
+	"super" : "TLCachedParser",
+	"type" : "normal" }

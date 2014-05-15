@@ -1,0 +1,3 @@
+accessing
+maxSentencesPerParagraph
+	^10

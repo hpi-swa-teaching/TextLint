@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLPatternTokenizer",
+	"pools" : [
+		 ],
+	"super" : "TLTextTokenizer",
+	"type" : "normal" }

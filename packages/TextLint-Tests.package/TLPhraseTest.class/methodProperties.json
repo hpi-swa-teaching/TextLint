@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCreation" : "JorgeRessia 4/8/2010 14:59",
+		"testEmptyInterval" : "JorgeRessia 4/9/2010 11:44",
+		"testInterval" : "JorgeRessia 4/9/2010 11:44",
+		"testIsPhrase" : "JorgeRessia 4/9/2010 14:04",
+		"testPhraseWithoutMarkups" : "JorgeRessia 9/3/2010 11:27",
+		"testText" : "JorgeRessia 4/8/2010 15:02",
+		"testTextWithSyntacticElements" : "JorgeRessia 4/8/2010 15:15",
+		"testWords" : "JorgeRessia 4/8/2010 15:00" } }

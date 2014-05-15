@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFailure" : "JorgeRessia 5/27/2010 12:08",
+		"testSuccess" : "JorgeRessia 5/26/2010 16:24",
+		"testSuccessAnd" : "JorgeRessia 5/27/2010 17:06",
+		"testSuccessAs" : "JorgeRessia 5/27/2010 17:09",
+		"testSuccessBeacause" : "JorgeRessia 5/27/2010 17:08",
+		"testSuccessBut" : "JorgeRessia 5/27/2010 17:07",
+		"testSuccessHowever" : "JorgeRessia 5/27/2010 17:07",
+		"testSuccessNotEnoughWordAfterComma" : "JorgeRessia 5/27/2010 12:08",
+		"testSuccessNotEnoughWordBeforeComma" : "JorgeRessia 5/27/2010 12:07",
+		"testSuccessSince" : "JorgeRessia 5/27/2010 17:07",
+		"testSuccessStill" : "JorgeRessia 5/27/2010 17:08",
+		"testSuccessThough" : "JorgeRessia 5/27/2010 17:08",
+		"testSuccessWithComma" : "JorgeRessia 5/26/2010 16:27",
+		"testSuccessYet" : "JorgeRessia 5/27/2010 17:08" } }

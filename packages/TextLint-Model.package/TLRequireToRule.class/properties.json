@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLRequireToRule",
+	"pools" : [
+		 ],
+	"super" : "TLPatternRule",
+	"type" : "normal" }

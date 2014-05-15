@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"allRules" : "lr 10/25/2010 19:38" },
+	"instance" : {
+		"name" : "lr 9/8/2010 10:44",
+		"rationale" : "JorgeRessia 4/2/2010 17:44",
+		"runOn:" : "lr 11/2/2010 07:43",
+		"runOnDocument:" : "lr 11/2/2010 07:43",
+		"runOnParagraph:" : "lr 11/2/2010 07:43",
+		"runOnParagraphsIn:" : "JorgeRessia 6/3/2010 18:29",
+		"runOnSentence:" : "lr 11/2/2010 07:42",
+		"runOnSentencesIn:" : "JorgeRessia 6/3/2010 18:30",
+		"runOnWord:" : "lr 11/2/2010 07:42",
+		"runOnWordsIn:" : "JorgeRessia 6/3/2010 18:28" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"allRules" : "JorgeRessia 11/4/2010 10:23",
+		"named:rationale:matching:" : "JorgeRessia 11/3/2010 22:13" },
+	"instance" : {
+		"initializeNamed:rationale:matching:" : "lr 9/5/2011 18:37",
+		"name" : "JorgeRessia 11/3/2010 22:15",
+		"pattern" : "JorgeRessia 11/3/2010 22:03",
+		"rationale" : "JorgeRessia 11/3/2010 22:15",
+		"runOnSentence:" : "JorgeRessia 11/3/2010 23:04" } }

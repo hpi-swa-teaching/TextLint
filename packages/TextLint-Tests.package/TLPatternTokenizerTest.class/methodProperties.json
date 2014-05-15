@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:recognizes:" : "lr 9/5/2011 18:56",
+		"assertInvalidQuery:" : "DamienCassou 9/5/2011 13:52",
+		"checkQuery:on:" : "DamienCassou 9/5/2011 13:51",
+		"deny:recognizes:" : "lr 9/5/2011 18:56",
+		"parseSentence:" : "DamienCassou 9/5/2011 13:30",
+		"testInvalidCharacter" : "lr 9/5/2011 18:51",
+		"testInvalidEmpty" : "lr 9/5/2011 18:55",
+		"testInvalidSyntax" : "lr 9/5/2011 18:46",
+		"testInvalidType" : "lr 9/5/2011 18:52",
+		"testSentence" : "lr 9/5/2011 18:59",
+		"tokenizeQuery:" : "lr 9/5/2011 18:57" } }

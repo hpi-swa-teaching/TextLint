@@ -1,0 +1,16 @@
+{
+	"category" : "TextLint-Tests-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pattern",
+		"name",
+		"rationale" ],
+	"name" : "TLPhrasePatternRule",
+	"pools" : [
+		 ],
+	"super" : "TLTextLintRule",
+	"type" : "normal" }

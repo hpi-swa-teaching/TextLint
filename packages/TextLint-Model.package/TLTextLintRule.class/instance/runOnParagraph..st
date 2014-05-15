@@ -1,0 +1,3 @@
+running
+runOnParagraph: aParagraph
+	^ #()

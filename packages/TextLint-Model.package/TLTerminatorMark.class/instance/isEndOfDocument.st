@@ -1,0 +1,3 @@
+testing
+isEndOfDocument
+	^ true

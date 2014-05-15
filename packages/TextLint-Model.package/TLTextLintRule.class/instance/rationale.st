@@ -1,0 +1,3 @@
+accessing
+rationale
+	^ self subclassResponsibility

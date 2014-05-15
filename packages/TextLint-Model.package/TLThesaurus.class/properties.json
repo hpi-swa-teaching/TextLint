@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThesaurusTable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLThesaurus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

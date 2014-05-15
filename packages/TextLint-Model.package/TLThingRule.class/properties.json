@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model-Rules",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLThingRule",
+	"pools" : [
+		 ],
+	"super" : "TLAvoidMultipleWordsUsageRule",
+	"type" : "normal" }

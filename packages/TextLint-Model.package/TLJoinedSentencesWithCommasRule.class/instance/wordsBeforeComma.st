@@ -1,0 +1,4 @@
+initialization
+wordsBeforeComma
+
+	^wordsBeforeCommaExceptions 

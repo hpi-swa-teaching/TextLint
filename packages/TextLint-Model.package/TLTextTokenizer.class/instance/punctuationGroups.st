@@ -1,0 +1,3 @@
+tokens
+punctuationGroups
+	^ '...' asParser

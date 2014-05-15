@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"NewLineParser" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLWhitespace",
+	"pools" : [
+		 ],
+	"super" : "TLSyntacticElement",
+	"type" : "normal" }

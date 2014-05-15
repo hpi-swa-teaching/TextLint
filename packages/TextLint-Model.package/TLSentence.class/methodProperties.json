@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"withAll:" : "lr 3/31/2010 11:17" },
+	"instance" : {
+		"allPhrasesOfSize:" : "JorgeRessia 5/26/2010 13:49",
+		"allSequencesOfSize:" : "JorgeRessia 6/10/2010 15:45",
+		"checkWith:" : "JorgeRessia 5/26/2010 10:41",
+		"children" : "JorgeRessia 4/8/2010 11:08",
+		"containsPhrase:" : "lr 4/5/2010 10:25",
+		"initializeWithAll:" : "JorgeRessia 6/10/2010 15:30",
+		"isSentence" : "JorgeRessia 4/7/2010 12:12",
+		"processFor:" : "JorgeRessia 2/10/2012 14:36",
+		"words" : "JorgeRessia 4/8/2010 11:08",
+		"wordsAsString" : "JorgeRessia 4/7/2010 15:24" } }

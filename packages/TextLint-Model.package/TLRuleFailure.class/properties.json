@@ -1,0 +1,15 @@
+{
+	"category" : "TextLint-Model-Runner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rule",
+		"element" ],
+	"name" : "TLRuleFailure",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testClassifyAs0" : "lr 9/6/2011 22:25",
+		"testClassifyAs1" : "lr 9/6/2011 22:24",
+		"testClassifyAs2" : "lr 9/6/2011 22:24",
+		"testClassifyAsWithCertainty" : "lr 9/6/2011 22:25",
+		"testCreation" : "JorgeRessia 4/7/2010 12:01",
+		"testInterval" : "JorgeRessia 4/9/2010 11:51",
+		"testIsWord" : "DamienCassou 11/21/2011 20:43",
+		"testText" : "JorgeRessia 4/7/2010 12:01" } }

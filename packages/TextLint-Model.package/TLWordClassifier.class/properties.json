@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClassificationTable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLWordClassifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

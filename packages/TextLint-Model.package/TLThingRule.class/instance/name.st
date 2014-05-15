@@ -1,0 +1,3 @@
+running
+name
+	^ 'Avoid "thing"'

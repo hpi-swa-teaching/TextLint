@@ -1,0 +1,16 @@
+{
+	"category" : "TextLint-Model-Runner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rules",
+		"document",
+		"results" ],
+	"name" : "TLTextLintChecker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

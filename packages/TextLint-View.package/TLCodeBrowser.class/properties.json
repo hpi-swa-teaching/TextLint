@@ -1,0 +1,18 @@
+{
+	"category" : "TextLint-View-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textLintChecker",
+		"results",
+		"saveAnnouncer",
+		"lastRuleSelectionInterval",
+		"styleAnnouncer" ],
+	"name" : "TLCodeBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

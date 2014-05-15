@@ -1,0 +1,22 @@
+{
+	"category" : "TextLint-Model-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"elementList",
+		"element",
+		"markup",
+		"word",
+		"whitespace",
+		"punctuation",
+		"punctuationGroups",
+		"unknown",
+		"punctuationCharacters" ],
+	"name" : "TLTextTokenizer",
+	"pools" : [
+		 ],
+	"super" : "TLCachedParser",
+	"type" : "normal" }

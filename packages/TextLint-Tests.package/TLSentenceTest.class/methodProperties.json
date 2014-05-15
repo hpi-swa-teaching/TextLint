@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"packageNamesUnderTest" : "lr 4/8/2010 13:33" },
+	"instance" : {
+		"testAllPhrasesOfSize" : "JorgeRessia 4/9/2010 13:59",
+		"testAllPhrasesOfSizeOne" : "JorgeRessia 4/9/2010 13:59",
+		"testAllSequencesOfSize" : "DamienCassou 11/21/2011 20:23",
+		"testAllSequencesOfSizeOne" : "DamienCassou 11/21/2011 20:24",
+		"testContainsPhraseAtTheBeginning" : "JorgeRessia 4/7/2010 11:59",
+		"testContainsPhraseAtTheEnd" : "JorgeRessia 4/7/2010 11:59",
+		"testContainsPhraseAtTheMiddle" : "JorgeRessia 4/7/2010 11:59",
+		"testContainsPhraseInAnyCase" : "JorgeRessia 4/7/2010 11:59",
+		"testCreation" : "JorgeRessia 4/8/2010 10:49",
+		"testEmptyInterval" : "JorgeRessia 4/9/2010 11:48",
+		"testInterval" : "JorgeRessia 4/9/2010 11:47",
+		"testIsSentence" : "JorgeRessia 4/9/2010 14:05",
+		"testText" : "JorgeRessia 4/9/2010 13:54",
+		"testWords" : "JorgeRessia 4/7/2010 15:31",
+		"testWordsAsString" : "JorgeRessia 4/7/2010 11:59",
+		"testWordsAsStringRealText" : "JorgeRessia 4/7/2010 11:59" } }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFailureWithComma" : "JorgeRessia 6/10/2010 16:02",
+		"testFailureWithExcalmation" : "JorgeRessia 6/10/2010 16:02",
+		"testFailureWithMixed" : "JorgeRessia 6/10/2010 16:02",
+		"testFailureWithMixedPeriod" : "JorgeRessia 6/10/2010 16:02",
+		"testFailureWithPeriod" : "JorgeRessia 6/10/2010 16:02",
+		"testFailureWithQuestion" : "JorgeRessia 6/10/2010 16:03",
+		"testSuccess" : "JorgeRessia 5/28/2010 11:11",
+		"testSuccessWithPunctuationMarks" : "JorgeRessia 6/10/2010 16:03" } }

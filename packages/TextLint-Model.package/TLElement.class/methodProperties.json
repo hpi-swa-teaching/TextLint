@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkWith:" : "lr 5/27/2010 16:25",
+		"children" : "lr 4/6/2010 20:30",
+		"interval" : "lr 4/9/2010 10:54",
+		"isDocument" : "JorgeRessia 4/7/2010 12:11",
+		"isEndOfDocument" : "JorgeRessia 4/7/2010 11:44",
+		"isMarkup" : "lr 5/27/2010 16:24",
+		"isParagraph" : "JorgeRessia 4/7/2010 12:11",
+		"isPhrase" : "JorgeRessia 4/9/2010 14:06",
+		"isPunctuation" : "JorgeRessia 4/7/2010 11:44",
+		"isSentence" : "JorgeRessia 4/7/2010 12:10",
+		"isSyntacticElement" : "DamienCassou 11/21/2011 20:00",
+		"isWhitespace" : "JorgeRessia 4/7/2010 11:44",
+		"isWord" : "JorgeRessia 4/7/2010 11:44",
+		"printContentOn:" : "JorgeRessia 4/8/2010 10:49",
+		"printOn:" : "lr 4/8/2010 13:29",
+		"start" : "lr 4/9/2010 10:56",
+		"stop" : "lr 4/9/2010 11:02",
+		"text" : "lr 4/6/2010 22:09",
+		"token" : "lr 6/16/2010 08:18" } }

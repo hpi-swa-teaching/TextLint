@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFailure" : "JorgeRessia 11/1/2010 14:29",
+		"testFailureCaseInsensitive" : "JorgeRessia 11/1/2010 14:29",
+		"testFailureInSentence" : "JorgeRessia 11/1/2010 14:29",
+		"testSuccess" : "JorgeRessia 7/30/2010 23:18" } }

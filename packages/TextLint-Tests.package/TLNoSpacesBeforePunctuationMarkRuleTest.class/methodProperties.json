@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testColonFailure" : "JorgeRessia 11/2/2010 09:05",
+		"testCommaFailure" : "JorgeRessia 11/2/2010 09:01",
+		"testDoubleSpaceFailure" : "JorgeRessia 11/2/2010 08:59",
+		"testExclamationFailure" : "JorgeRessia 11/2/2010 09:04",
+		"testFailure" : "JorgeRessia 11/1/2010 16:04",
+		"testPeriodFailure" : "JorgeRessia 11/2/2010 09:00",
+		"testQuestionFailure" : "JorgeRessia 11/2/2010 09:01",
+		"testSemicolonFailure" : "JorgeRessia 11/2/2010 09:05",
+		"testSuccess" : "JorgeRessia 5/28/2010 10:15",
+		"testSuccessWithOtherPunctuation" : "JorgeRessia 11/2/2010 09:00" } }
