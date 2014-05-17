@@ -4,6 +4,9 @@ baseline: spec
 	spec
 		for: #'common' do: [
 			spec
+				package: 'PetitParser-Core';
+				package: 'PetitParser-Parsers';
+				package: 'PetitParser-Tools';
 				package: 'TextLint-Model';
 				package: 'TextLint-View';
 				package: 'TextLint-Tests' with: [
