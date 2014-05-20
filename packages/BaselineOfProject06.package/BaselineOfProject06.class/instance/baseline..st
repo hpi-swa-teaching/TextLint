@@ -4,13 +4,13 @@ baseline: spec
 	spec
 		for: #'common' do: [
 			spec
-				package: 'Project06-Model';
-				package: 'Project06-View';
-				package: 'Project06-Tests' with: [
+				package: 'TextLint-Model';
+				package: 'TextLint-View';
+				package: 'TextLint-Tests' with: [
 					spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('Project06-Model');
-				group: 'Tests' with: #('Project06-Tests');
+				group: 'default' with: #('TextLint-Model');
+				group: 'Tests' with: #('TextLint-Tests');
 				group: 'TravisCI' with: #('Tests');
 				yourself]
