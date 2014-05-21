@@ -18,7 +18,7 @@ codePaneOn: browser
 								MultiByteFileStream
 									forceNewFileNamed: file
 									do: [ :stream | stream nextPutAll: text text ].
-
+								textToCheck := text text asString.
 								saveAnnouncer announce: TLFileSaved.
 								
 								"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."

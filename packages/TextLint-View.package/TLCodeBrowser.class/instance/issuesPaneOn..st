@@ -10,10 +10,9 @@ issuesPaneOn: browser
 				title: 'Issues';
 				display: [ :file | 
 					Cursor wait showWhile: [
-						fileContents := MultiByteFileStream
-							readOnlyFileNamed: file
-							do: [ :stream | stream contents ].
-						textToCheck ifNil: [textToCheck := fileContents].
+						textToCheck ifNil: [textToCheck := MultiByteFileStream
+															readOnlyFileNamed: file
+															do: [ :stream | stream contents ]].
 						textLintChecker reset.
 						results := (textLintChecker parse: textToCheck) results.
 						
