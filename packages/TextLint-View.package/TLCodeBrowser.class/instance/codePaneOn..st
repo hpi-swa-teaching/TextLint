@@ -23,8 +23,12 @@ codePaneOn: browser
 								
 								"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
 								] on: $s entitled: 'Save modifications [cmd-s]';
+							act: [ :text |
+								textToCheck := text text asString.
+								modifiedAnnouncer announce: TLTextModified.] on: $r entitled: 'Re-check with modifications  [cmd-r]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
-							updateOn: TLStyleChanged from:[styleAnnouncer].	
+							updateOn: TLStyleChanged from:[styleAnnouncer];
+							updateOn: TLTextModified from: [modifiedAnnouncer].
 						].
 	
 	^browser

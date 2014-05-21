@@ -10,7 +10,9 @@
 		"results",
 		"saveAnnouncer",
 		"lastRuleSelectionInterval",
-		"styleAnnouncer" ],
+		"styleAnnouncer",
+		"modifiedAnnouncer",
+		"textToCheck" ],
 	"name" : "TLCodeBrowser",
 	"pools" : [
 		 ],

@@ -13,7 +13,9 @@ issuesPaneOn: browser
 						fileContents := MultiByteFileStream
 							readOnlyFileNamed: file
 							do: [ :stream | stream contents ].
-						results := (textLintChecker parse: fileContents) results.
+						textToCheck ifNil: [textToCheck := fileContents].
+						textLintChecker reset.
+						results := (textLintChecker parse: textToCheck) results.
 						
 						firstResults := (results groupedBy: [ :each | each rule class categorieDescriptions 
 																at: each rule category ]) asOrderedCollection.
@@ -41,6 +43,7 @@ issuesPaneOn: browser
 						ifFalse: [
 							String streamContents: [ :stream | stream nextPutAll: (each element processFor: self)] ] ];
 				updateOn: TLFileSaved from: [saveAnnouncer];
-				updateOn: TLStyleChanged from:[styleAnnouncer.]
+				updateOn: TLStyleChanged from:[styleAnnouncer.];
+				updateOn: TLTextModified from: [modifiedAnnouncer]
 			].
 		^ browser

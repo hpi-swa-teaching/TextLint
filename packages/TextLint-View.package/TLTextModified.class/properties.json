@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-View-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLTextModified",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }
