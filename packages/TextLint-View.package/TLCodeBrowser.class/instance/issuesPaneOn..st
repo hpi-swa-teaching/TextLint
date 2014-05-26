@@ -1,6 +1,6 @@
 Glamour
 issuesPaneOn: browser
-	| fileContents firstResults groupedByCategory groupedByCategoryAndClass |
+	| fileContents firstResults groupedByCategory groupedByCategoryAndClass filePath |
 	browser transmit 
 		to: #issues; 
 		from: #files;
@@ -10,7 +10,9 @@ issuesPaneOn: browser
 				title: 'Issues';
 				display: [ :file | 
 					Cursor wait showWhile: [
-						textToCheck ifNil: [textToCheck := MultiByteFileStream
+						file = filePath ifFalse: [textToCheck := nil].
+						textToCheck ifNil: [filePath := file.
+											textToCheck := MultiByteFileStream
 															readOnlyFileNamed: file
 															do: [ :stream | stream contents ]].
 						textLintChecker reset.
