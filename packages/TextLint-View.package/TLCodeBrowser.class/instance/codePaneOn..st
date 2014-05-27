@@ -6,7 +6,7 @@ codePaneOn: browser
 		from: #files;
 		"from: #styles;"
 		andShow: [:presentation | 
-					presentation text 
+					presentation tlText 
 							title: [:file | file name ];
 							display: [:file | 
 								| text |
