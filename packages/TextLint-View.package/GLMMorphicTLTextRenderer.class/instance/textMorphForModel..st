@@ -7,6 +7,7 @@ textMorphForModel:  aTextModel
 		readSelection: #selection
 		menu: #menu:shifted:)
 		autoAccept: true;
+		browser: self browser;
 		onKeyStrokeSend: #keystroke:from: to: aTextModel;
 		layoutFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1));
 		vResizing: #spaceFill;
