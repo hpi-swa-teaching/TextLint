@@ -2,7 +2,7 @@
 	"class" : {
 		"newFor:" : "FabrizioPerin 5/10/2010 13:12" },
 	"instance" : {
-		"codeBrowser" : "sebastiankliem 5/21/2014 10:22",
+		"codeBrowser" : "jonaskeutel 6/3/2014 17:52",
 		"codePaneOn:" : "michaelweisz 6/2/2014 16:48",
 		"exportButtonOn:" : "FabrizioPerin 9/8/2010 14:29",
 		"filesPaneOn:" : "DamienCassou 8/23/2011 11:39",
@@ -15,6 +15,6 @@
 		"processSentence:" : "DamienCassou 9/2/2011 16:33",
 		"processSyntacticElement:" : "JorgeRessia 6/16/2010 15:49",
 		"rationalePaneOn:" : "DominicSauer 5/15/2014 16:56",
-		"reInitializeCheckerWith:" : "DamienCassou 9/2/2011 16:15",
+		"reInitializeCheckerWith:" : "jonaskeutel 6/4/2014 09:19",
 		"ruleFailuresIn:" : "michaelweisz 6/2/2014 17:07",
-		"stylePaneOn:" : "FabrizioPerin 10/20/2010 11:01" } }
+		"stylePaneOn:" : "jonaskeutel 6/3/2014 17:51" } }
