@@ -6,7 +6,8 @@ codePaneOn: browser
 		from: #files;
 		"from: #styles;"
 		andShow: [:presentation | 
-					presentation text 
+					presentation tlText 
+							browser: self;
 							title: [:file | file name ];
 							display: [:file | 
 								| text |
@@ -18,13 +19,17 @@ codePaneOn: browser
 								MultiByteFileStream
 									forceNewFileNamed: file
 									do: [ :stream | stream nextPutAll: text text ].
-
+								textToCheck := text text asString.
 								saveAnnouncer announce: TLFileSaved.
 								
 								"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
 								] on: $s entitled: 'Save modifications [cmd-s]';
+							act: [ :text |
+								textToCheck := text text asString.
+								modifiedAnnouncer announce: TLTextModified.] on: $r entitled: 'Re-check with modifications  [cmd-r]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
-							updateOn: TLStyleChanged from:[styleAnnouncer].	
+							updateOn: TLStyleChanged from:[styleAnnouncer];
+							updateOn: TLTextModified from: [modifiedAnnouncer].
 						].
 	
 	^browser

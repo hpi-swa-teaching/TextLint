@@ -43,7 +43,8 @@ codeBrowser
 						transformed: [ :s | lastRuleSelectionInterval]].
 	browser transmit 
 		from: #styles;
-		to:#styles; when: [:s | s notNil] ; 
+		to:#styles; 
+		when: [:s | s notNil] ; 
 		transformed: [ :s | 
 			self reInitializeCheckerWith: s.
 			styleAnnouncer announce: TLStyleChanged.

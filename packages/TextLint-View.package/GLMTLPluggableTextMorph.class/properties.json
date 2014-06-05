@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-View-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser" ],
+	"name" : "GLMTLPluggableTextMorph",
+	"pools" : [
+		 ],
+	"super" : "GLMPluggableTextMorph",
+	"type" : "normal" }
