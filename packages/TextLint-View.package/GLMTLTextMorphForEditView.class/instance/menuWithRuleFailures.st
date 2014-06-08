@@ -1,7 +1,7 @@
 as yet unclassified
 menuWithRuleFailures
 	| ruleFailures menu |
-	ruleFailures := self browser ruleFailuresIn: self selectionInterval.
+	ruleFailures := self browser ruleFailuresAt: editor caret.
 	ruleFailures isEmpty not ifTrue: [
 		menu := MenuMorph new.
 		menu

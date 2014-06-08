@@ -1,10 +1,10 @@
 Glamour
-ruleFailuresIn: anInterval
+ruleFailuresAt: aPosition
 	| ruleFailures |
 	ruleFailures := OrderedCollection new. 
 	
 	results do: [ :each |
-		( (each element start <= anInterval first) and: ([ each element stop >= anInterval last]) )
+		( (each element start <= aPosition) and: ([ each element stop >= aPosition]) )
 			ifTrue: [ruleFailures add: each].
 		].
 	^ruleFailures
