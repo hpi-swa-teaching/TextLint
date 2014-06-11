@@ -1,0 +1,3 @@
+Glamour
+textLintChecker
+	^ textLintChecker.
