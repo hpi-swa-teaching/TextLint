@@ -2,7 +2,20 @@
 	"class" : {
 		"mouseDown:" : "michaelweisz 6/2/2014 14:53" },
 	"instance" : {
+		"balloonMorphWithRuleFailures" : "jonaskeutel 6/17/2014 23:07",
 		"browser" : "michaelweisz 6/2/2014 17:15",
-		"doubleClick:" : "jonaskeutel 6/3/2014 09:30",
+		"handlesMouseDown:" : "jonaskeutel 6/10/2014 14:12",
+		"hoverAction:" : "jonaskeutel 6/17/2014 23:05",
+		"hoverCount" : "jonaskeutel 6/10/2014 13:49",
+		"hoverCount:" : "jonaskeutel 6/10/2014 13:49",
+		"initialize" : "jonaskeutel 6/10/2014 13:53",
 		"menuWithRuleFailures" : "jonaskeutel 6/8/2014 16:59",
-		"mouseDown:" : "jonaskeutel 6/8/2014 16:47" } }
+		"mouseDown:" : "jonaskeutel 6/17/2014 23:01",
+		"mouseEnter:" : "jonaskeutel 6/10/2014 13:44",
+		"mouseLeave:" : "jonaskeutel 6/10/2014 13:48",
+		"mouseMove:" : "jonaskeutel 6/17/2014 19:16",
+		"rightClick:" : "jonaskeutel 6/12/2014 18:04",
+		"shouldStep" : "jonaskeutel 6/10/2014 13:42",
+		"shouldStep:" : "jonaskeutel 6/10/2014 13:42",
+		"step" : "jonaskeutel 6/17/2014 23:09",
+		"stepTime" : "jonaskeutel 6/17/2014 19:34" } }
