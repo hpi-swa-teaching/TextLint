@@ -7,7 +7,7 @@ menuWithRuleFailures
 		menu
 			title: 'Failures';
 			addStayUpItem.
-		ruleFailures do: [ :each | (menu add: ('    ', each rule name, '    ') target: (self browser textLintChecker) selector: #removeRule: argument: each rule) setBalloonText: each rule rationale.].
+		ruleFailures do: [ :each | (menu add: ('    ', each rule name, '    ') target: (self) selector: #menuItemHandleClickWith: argument: each rule) setBalloonText: each rule rationale.].
 		menu 
 			popUpInWorld: World.
 	]

@@ -17,7 +17,7 @@ issuesPaneOn: browser
 															do: [ :stream | stream contents ]].
 						textLintChecker reset.
 						results := (textLintChecker parse: textToCheck) results.
-						
+
 						firstResults := (results groupedBy: [ :each | each rule class categorieDescriptions 
 																at: each rule category ]) asOrderedCollection.
 						
@@ -45,6 +45,6 @@ issuesPaneOn: browser
 							String streamContents: [ :stream | stream nextPutAll: (each element processFor: self)] ] ];
 				updateOn: TLFileSaved from: [saveAnnouncer];
 				updateOn: TLStyleChanged from:[styleAnnouncer.];
-				updateOn: TLTextModified from: [modifiedAnnouncer]
+				updateOn: TLTextModified from: [modifiedAnnouncer].
 			].
 		^ browser
