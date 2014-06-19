@@ -13,7 +13,7 @@ codePaneOn: browser
 								| text |
 								textLintChecker isNil ifFalse: [ 
 									text := textLintChecker document highlightedText.
-									results do: [ :each | each highlightOn: text ].].
+									textLintChecker results do: [ :each | each highlightOn: text ].].
 								text.];
 							act: [:text :file |
 								MultiByteFileStream
