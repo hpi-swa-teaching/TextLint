@@ -3,7 +3,20 @@
 		"mouseDown:" : "michaelweisz 6/2/2014 14:53" },
 	"instance" : {
 		"browser" : "michaelweisz 6/2/2014 17:15",
-		"doubleClick:" : "jonaskeutel 6/3/2014 09:30",
+		"handlesMouseDown:" : "jonaskeutel 6/10/2014 14:12",
+		"hoverAction:" : "jonaskeutel 6/18/2014 23:39",
+		"hoverCount" : "jonaskeutel 6/10/2014 13:49",
+		"hoverCount:" : "jonaskeutel 6/10/2014 13:49",
+		"initialize" : "jonaskeutel 6/10/2014 13:53",
 		"menuItemHandleClickWith:" : "sebastiankliem 6/19/2014 09:37",
-		"menuWithRuleFailures" : "sebastiankliem 6/18/2014 16:17",
-		"mouseDown:" : "jonaskeutel 6/8/2014 16:47" } }
+		"menuWithRuleFailures" : "sebastiankliem 6/19/2014 10:37",
+		"mouseDown:" : "jonaskeutel 6/18/2014 23:37",
+		"mouseEnter:" : "jonaskeutel 6/10/2014 13:44",
+		"mouseLeave:" : "jonaskeutel 6/10/2014 13:48",
+		"mouseMove:" : "jonaskeutel 6/17/2014 19:16",
+		"rightClick:" : "jonaskeutel 6/12/2014 18:04",
+		"shouldStep" : "jonaskeutel 6/10/2014 13:42",
+		"shouldStep:" : "jonaskeutel 6/10/2014 13:42",
+		"step" : "jonaskeutel 6/17/2014 23:09",
+		"stepTime" : "jonaskeutel 6/18/2014 15:13",
+		"tooltipWithRuleFailures" : "jonaskeutel 6/18/2014 23:27" } }

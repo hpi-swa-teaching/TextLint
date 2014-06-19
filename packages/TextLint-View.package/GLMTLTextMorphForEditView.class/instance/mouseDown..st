@@ -1,11 +1,7 @@
 as yet unclassified
 mouseDown: anEvent
-	| oldPosition |
-	oldPosition := editor caret.
+	Transcript show: anEvent; cr.
 	super mouseDown:  anEvent.
+	self shouldStep: false.
 	anEvent hand waitForClicksOrDrag: self event: anEvent.
-	anEvent yellowButtonPressed ifTrue: [
-		self handleInteraction: [editor mouseDown: anEvent].
-		self menuWithRuleFailures.
-		editor selectFrom:oldPosition to: (oldPosition - 1).
-	]
+	anEvent yellowButtonPressed ifTrue: [ self rightClick: anEvent].
