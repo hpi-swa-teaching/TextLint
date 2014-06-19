@@ -1,3 +1,3 @@
 Glamour
 stepTime
-	^ 500
+	^ 250

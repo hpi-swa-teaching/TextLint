@@ -2,15 +2,14 @@
 	"class" : {
 		"mouseDown:" : "michaelweisz 6/2/2014 14:53" },
 	"instance" : {
-		"balloonMorphWithRuleFailures" : "jonaskeutel 6/17/2014 23:07",
 		"browser" : "michaelweisz 6/2/2014 17:15",
 		"handlesMouseDown:" : "jonaskeutel 6/10/2014 14:12",
-		"hoverAction:" : "jonaskeutel 6/17/2014 23:05",
+		"hoverAction:" : "jonaskeutel 6/18/2014 23:39",
 		"hoverCount" : "jonaskeutel 6/10/2014 13:49",
 		"hoverCount:" : "jonaskeutel 6/10/2014 13:49",
 		"initialize" : "jonaskeutel 6/10/2014 13:53",
-		"menuWithRuleFailures" : "jonaskeutel 6/8/2014 16:59",
-		"mouseDown:" : "jonaskeutel 6/17/2014 23:01",
+		"menuWithRuleFailures" : "jonaskeutel 6/18/2014 14:49",
+		"mouseDown:" : "jonaskeutel 6/18/2014 23:37",
 		"mouseEnter:" : "jonaskeutel 6/10/2014 13:44",
 		"mouseLeave:" : "jonaskeutel 6/10/2014 13:48",
 		"mouseMove:" : "jonaskeutel 6/17/2014 19:16",
@@ -18,4 +17,5 @@
 		"shouldStep" : "jonaskeutel 6/10/2014 13:42",
 		"shouldStep:" : "jonaskeutel 6/10/2014 13:42",
 		"step" : "jonaskeutel 6/17/2014 23:09",
-		"stepTime" : "jonaskeutel 6/17/2014 19:34" } }
+		"stepTime" : "jonaskeutel 6/18/2014 15:13",
+		"tooltipWithRuleFailures" : "jonaskeutel 6/18/2014 23:27" } }

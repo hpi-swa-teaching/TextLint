@@ -3,7 +3,7 @@
 		"newFor:" : "FabrizioPerin 5/10/2010 13:12" },
 	"instance" : {
 		"codeBrowser" : "jonaskeutel 6/3/2014 17:52",
-		"codePaneOn:" : "michaelweisz 6/2/2014 16:48",
+		"codePaneOn:" : "sebastiankliem 6/11/2014 12:27",
 		"exportButtonOn:" : "FabrizioPerin 9/8/2010 14:29",
 		"filesPaneOn:" : "DamienCassou 8/23/2011 11:39",
 		"initialize" : "jonaskeutel 6/10/2014 10:37",
@@ -17,4 +17,5 @@
 		"rationalePaneOn:" : "DominicSauer 5/15/2014 16:56",
 		"reInitializeCheckerWith:" : "jonaskeutel 6/4/2014 09:19",
 		"ruleFailuresAt:" : "jonaskeutel 6/8/2014 16:57",
-		"stylePaneOn:" : "jonaskeutel 6/3/2014 17:51" } }
+		"stylePaneOn:" : "jonaskeutel 6/3/2014 17:51",
+		"textLintChecker" : "sebastiankliem 6/11/2014 16:49" } }

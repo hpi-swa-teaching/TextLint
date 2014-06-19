@@ -1,7 +1,7 @@
 as yet unclassified
 mouseDown: anEvent
+	Transcript show: anEvent; cr.
 	super mouseDown:  anEvent.
-	Transcript show: anEvent.
 	self shouldStep: false.
 	anEvent hand waitForClicksOrDrag: self event: anEvent.
 	anEvent yellowButtonPressed ifTrue: [ self rightClick: anEvent].
