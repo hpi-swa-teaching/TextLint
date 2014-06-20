@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCheckSingleRule" : "lr 5/11/2011 21:07" } }
+		"testAddingStyle" : "DominicSauer 6/18/2014 16:02",
+		"testCheckSingleRule" : "DominicSauer 6/18/2014 16:02",
+		"testEditRuleFailure" : "DominicSauer 6/18/2014 16:03",
+		"testIgnoreSingleRule" : "DominicSauer 6/18/2014 16:09",
+		"testResetTextLintChecker" : "DominicSauer 6/18/2014 16:03" } }

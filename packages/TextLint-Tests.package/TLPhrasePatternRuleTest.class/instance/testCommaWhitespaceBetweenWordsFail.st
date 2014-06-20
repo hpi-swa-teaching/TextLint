@@ -1,4 +1,4 @@
-as yet unclassified
+test
 testCommaWhitespaceBetweenWordsFail
 
 	| aRule aWord aDocument anotherWord aSentence words sentences aParagraph paragraphs results word1 word2  |

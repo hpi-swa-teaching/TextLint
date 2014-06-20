@@ -1,4 +1,4 @@
-as yet unclassified
+test
 testCreationDualWordAndPunctuation
 	| aRule |
 	aRule := TLPhrasePatternRule

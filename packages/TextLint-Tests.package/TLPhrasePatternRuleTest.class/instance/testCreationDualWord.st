@@ -1,4 +1,4 @@
-as yet unclassified
+test
 testCreationDualWord
 	| aRule |
 	aRule := TLPhrasePatternRule 

@@ -1,4 +1,4 @@
-as yet unclassified
+test
 testSuccess
 	self createWord: 'test'.
 	self createWord: 'test'.

@@ -1,4 +1,4 @@
-as yet unclassified
+test
 testFailureInSentence
 	| aRule aWord aDocument anotherWord aSentence aParagraph results |
 	self createWord: 'test'.

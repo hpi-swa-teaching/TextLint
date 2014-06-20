@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCreation" : "JorgeRessia 5/10/2010 11:55",
+		"testCreation" : "DominicSauer 6/18/2014 16:01",
 		"testImmutability" : "JorgeRessia 5/10/2010 11:58",
 		"testMinusComposition" : "JorgeRessia 5/12/2010 20:33",
-		"testPlusComposition" : "JorgeRessia 5/12/2010 20:29" } }
+		"testPlusComposition" : "JorgeRessia 5/12/2010 20:29",
+		"testallButSentenceConstructionStyle" : "DominicSauer 6/20/2014 15:45" } }
