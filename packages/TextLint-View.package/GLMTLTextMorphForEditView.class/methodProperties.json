@@ -4,7 +4,7 @@
 	"instance" : {
 		"browser" : "michaelweisz 6/2/2014 17:15",
 		"handlesMouseDown:" : "jonaskeutel 6/10/2014 14:12",
-		"hoverAction:" : "jonaskeutel 6/18/2014 23:39",
+		"hoverAction:" : "sebastiankliem 6/21/2014 15:43",
 		"hoverCount" : "jonaskeutel 6/10/2014 13:49",
 		"hoverCount:" : "jonaskeutel 6/10/2014 13:49",
 		"initialize" : "jonaskeutel 6/10/2014 13:53",
@@ -17,6 +17,6 @@
 		"rightClick:" : "jonaskeutel 6/12/2014 18:04",
 		"shouldStep" : "jonaskeutel 6/10/2014 13:42",
 		"shouldStep:" : "jonaskeutel 6/10/2014 13:42",
-		"step" : "jonaskeutel 6/17/2014 23:09",
+		"step" : "sebastiankliem 6/21/2014 15:51",
 		"stepTime" : "jonaskeutel 6/18/2014 15:13",
-		"tooltipWithRuleFailures" : "jonaskeutel 6/18/2014 23:27" } }
+		"tooltipWithRuleFailures" : "sebastiankliem 6/21/2014 15:30" } }

@@ -8,7 +8,7 @@ step
 		self shouldStep: false.
 		clickEvent := MouseButtonEvent basicNew 
 			setType: #mouseDown
-			position: (World activeHand cursorPoint - self owner position)
+			position: (self owner transform globalPointToLocal: (World activeHand cursorPoint))
 			which: 2
 			buttons: 3
 			hand: World activeHand

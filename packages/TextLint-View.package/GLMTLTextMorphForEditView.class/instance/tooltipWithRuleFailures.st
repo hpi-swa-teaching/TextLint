@@ -1,7 +1,7 @@
 Glamour
 tooltipWithRuleFailures
 	| balloon ruleFailures |
-	ruleFailures := self browser ruleFailuresAt: editor caret.
+	ruleFailures := (self text attributesAt: editor caret) select: [ :each | each class = TLAttribute] thenCollect: [:each | each ruleFailure].
 	ruleFailures isEmpty ifTrue: [ ^self ].
 	balloon := TLTooltip new.
 	ruleFailures do: [ :each |
