@@ -1,3 +1,8 @@
 *textlint-view
 highlightAttribute
-	^ TLTextLintRule categorieColors at: self rule category
+	| attribute |
+	attribute := TLAttribute new.
+	attribute 
+		ruleFailure: self;
+		color: (TLTextLintRule categorieColors at: self rule category) color.
+	^ attribute

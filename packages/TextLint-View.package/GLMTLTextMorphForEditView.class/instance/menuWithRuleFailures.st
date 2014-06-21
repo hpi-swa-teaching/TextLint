@@ -1,7 +1,7 @@
 as yet unclassified
 menuWithRuleFailures
 	| ruleFailures menu |
-	ruleFailures := self browser ruleFailuresAt: editor caret.
+	ruleFailures := (self text attributesAt: editor caret) select: [ :each | each class = TLAttribute] thenCollect: [:each | each ruleFailure].
 	ruleFailures isEmpty not ifTrue: [
 		menu := MenuMorph new.
 		menu

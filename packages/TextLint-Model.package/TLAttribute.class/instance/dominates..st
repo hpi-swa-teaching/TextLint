@@ -1,0 +1,3 @@
+accessing
+dominates: aClass 
+	^false.

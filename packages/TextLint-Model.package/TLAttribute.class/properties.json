@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-Model-Runner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ruleFailure" ],
+	"name" : "TLAttribute",
+	"pools" : [
+		 ],
+	"super" : "TextColor",
+	"type" : "normal" }
