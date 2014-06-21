@@ -12,6 +12,7 @@ codePaneOn: browser
 							display: [:file | 
 								| text |
 								textLintChecker isNil ifFalse: [ 
+									[textLintChecker document text = textToCheck] whileFalse: [].
 									text := textLintChecker document highlightedText.
 									textLintChecker results do: [ :each | each highlightOn: text ].].
 								text.];
@@ -27,6 +28,6 @@ codePaneOn: browser
 								self recheckWithText: text text asString] on: $r entitled: 'Re-check with modifications  [cmd-r]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
 							updateOn: TLStyleChanged from:[styleAnnouncer];
-							updateOn: TLTextModified from: [modifiedAnnouncer]..].
+							updateOn: TLTextModified from: [modifiedAnnouncer].].
 	
 	^browser
