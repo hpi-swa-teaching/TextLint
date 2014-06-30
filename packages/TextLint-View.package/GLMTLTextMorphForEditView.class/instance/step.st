@@ -3,7 +3,7 @@ step
 	self shouldStep = true ifFalse: [ ^self ].
 	
 	self hoverCount: self hoverCount + 1.
-	self hoverCount > 4 ifTrue: [ 
+	self hoverCount > 6 ifTrue: [ 
 		| clickEvent |
 		self shouldStep: false.
 		clickEvent := MouseButtonEvent basicNew 
