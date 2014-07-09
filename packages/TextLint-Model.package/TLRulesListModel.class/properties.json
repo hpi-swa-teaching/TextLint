@@ -1,0 +1,15 @@
+{
+	"category" : "TextLint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rulesList",
+		"selectionList" ],
+	"name" : "TLRulesListModel",
+	"pools" : [
+		 ],
+	"super" : "ListModel",
+	"type" : "normal" }

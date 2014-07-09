@@ -8,7 +8,8 @@
 	"instvars" : [
 		"rules",
 		"document",
-		"results" ],
+		"results",
+		"ignoredRules" ],
 	"name" : "TLTextLintChecker",
 	"pools" : [
 		 ],
