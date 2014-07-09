@@ -4,5 +4,5 @@ highlightAttribute
 	attribute := TLAttribute new.
 	attribute 
 		ruleFailure: self;
-		color: (TLTextLintRule categorieColors at: self rule category) color.
+		color: (TLTextLintRule categoryColors at: self rule category) color.
 	^ attribute

@@ -6,7 +6,7 @@ issuesPaneOn: browser
 		from: #files;
 	"	from: #styles;"
 		andShow: [:presentation | 
-			presentation tree 
+			(presentation custom: GLMTLTreePresentation new)
 				title: 'Issues';
 				display: [ :file | 
 					Cursor wait showWhile: [
@@ -18,7 +18,7 @@ issuesPaneOn: browser
 						textLintChecker reset.
 						results := (textLintChecker parse: textToCheck) results.
 
-						firstResults := (results groupedBy: [ :each | each rule class categorieDescriptions 
+						firstResults := (results groupedBy: [ :each | each rule class categoryDescriptions 
 																at: each rule category ]) asOrderedCollection.
 						
 						groupedByCategory := OrderedCollection new.
@@ -38,7 +38,7 @@ issuesPaneOn: browser
 				format: [ :each | 
 					each isCollection
 						ifTrue: [ each first isCollection
-									ifTrue: [each first first rule class categorieDescriptions 
+									ifTrue: [each first first rule class categoryDescriptions 
 												at: each first first rule category]
 									ifFalse: [each first rule name] ]
 						ifFalse: [

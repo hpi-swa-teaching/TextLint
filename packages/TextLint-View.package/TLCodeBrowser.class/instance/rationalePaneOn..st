@@ -9,7 +9,7 @@ rationalePaneOn: aBrowser
 							display: [:r | 
 								r isCollection
 									ifTrue: [ r first isCollection
-												ifTrue: [r first first rule class categorieDescriptions 
+												ifTrue: [r first first rule class categoryDescriptions 
 																at: r first first rule category]
 												ifFalse: [r first rule rationale ]]
 									ifFalse: [ r rule rationale ] ] ].

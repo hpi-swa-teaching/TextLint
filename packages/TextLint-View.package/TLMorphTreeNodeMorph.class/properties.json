@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-View-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TLMorphTreeNodeMorph",
+	"pools" : [
+		 ],
+	"super" : "MorphTreeNodeMorph",
+	"type" : "normal" }

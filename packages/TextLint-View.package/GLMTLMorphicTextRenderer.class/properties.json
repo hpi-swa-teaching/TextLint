@@ -1,0 +1,14 @@
+{
+	"category" : "TextLint-View-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser" ],
+	"name" : "GLMTLMorphicTextRenderer",
+	"pools" : [
+		 ],
+	"super" : "GLMMorphicTextRenderer",
+	"type" : "normal" }
