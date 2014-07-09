@@ -5,4 +5,4 @@ testCategorieDescriptions
 	
 	rule := TLALotRule new.
 	self assert: (rule category) equals: #wordsToAvoid.
-	self assert: (rule class categorieDescriptions at: (rule category)) isNotEmpty"equals: 'Words and phrases you should avoid'".
+	self assert: (rule class categorieDescriptions at: (rule category)) equals: 'Words and phrases you should avoid'.

@@ -13,8 +13,8 @@ testResetTextLintChecker
 	self assert: checker results first element isPhrase.
 	self assert: (checker results first element text  = 'a lot').
 	
-	checker reset.
 	checker removeRule: rule.
+	checker reset.
 	rule :=  (TLAllowToRule new).
 	checker addRule: rule.
 
