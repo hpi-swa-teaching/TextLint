@@ -1,3 +1,0 @@
-Glamour
-stepTime
-	^ 250

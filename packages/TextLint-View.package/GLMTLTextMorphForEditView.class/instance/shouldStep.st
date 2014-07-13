@@ -1,3 +1,0 @@
-Glamour
-shouldStep
-	^ shouldStep
