@@ -1,3 +1,0 @@
-running
-color
-	^ TextColor yellow

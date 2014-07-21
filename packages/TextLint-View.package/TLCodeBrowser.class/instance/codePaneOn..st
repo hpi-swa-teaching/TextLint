@@ -21,13 +21,13 @@ codePaneOn: browser
 									forceNewFileNamed: file
 									do: [ :stream | stream nextPutAll: text text ].
 								saveAnnouncer announce: TLFileSaved.
-								
-								"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
+							"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
 								] on: $s entitled: 'Save modifications [cmd-s]';
 							act: [ :text |
-								self recheckWithText: text text asString] on: $r entitled: 'Re-check with modifications  [cmd-r]';
+								self recheckWithText: text text asString.
+								] on: $r entitled: 'Re-check with modifications  [cmd-r]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
 							updateOn: TLStyleChanged from:[styleAnnouncer];
 							updateOn: TLTextModified from: [modifiedAnnouncer].].
 	
-	^browser
+	^ browser
