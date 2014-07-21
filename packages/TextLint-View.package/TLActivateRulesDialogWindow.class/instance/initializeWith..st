@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWith: aTextLintChecker
 	super initialize.
 	listModel := TLRulesListModel new initialize.

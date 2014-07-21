@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 listMorph: anObject
- listMorph := anObject
+	listMorph := anObject
