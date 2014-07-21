@@ -5,4 +5,4 @@ testRuleColor
 	
 	rule := TLALotRule new.
 	self assert: (rule category) equals: #wordsToAvoid.
-	self assert: (rule class categorieColors at: (rule category)) equals: TextColor red.
+	self assert: (rule class categoryColors at: (rule category)) equals: TextColor red.
