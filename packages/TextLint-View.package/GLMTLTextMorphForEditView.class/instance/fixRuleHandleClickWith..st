@@ -9,5 +9,3 @@ fixRuleHandleClickWith: aRuleFailure
 	frs replaceText:'cannot'.
 	frs isRegex:true.
 	frs replaceInTextMorph: self.
-	
-	self browser recheckWithText: self text asString.
