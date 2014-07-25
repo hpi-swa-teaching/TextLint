@@ -13,8 +13,7 @@ exportButtonOn: aBrowser
       activateWindow cancelled ifFalse: [ | listMorph removedRule |
        listMorph := activateWindow listMorph.
        removedRule := listMorph model selectedItem.
-       self textLintChecker addRule: removedRule.
-       self textLintChecker ignoredRules remove: removedRule ifAbsent: [].
+       self textLintChecker reactivateRule: removedRule.
        listMorph model rulesList: (listMorph model rulesList select: [:each | (each = removedRule) not]) asArray.
        "TODO: automatic recheck"].
      ]

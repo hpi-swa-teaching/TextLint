@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 mouseWheel: anEvent
 	super mouseWheel: anEvent.
 	self delete. 

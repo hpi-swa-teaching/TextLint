@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"mouseDown:" : "michaelweisz 6/2/2014 14:53" },
+		 },
 	"instance" : {
 		"browser" : "michaelweisz 6/2/2014 17:15",
 		"fixRuleHandleClickWith:" : "michaelweisz 7/25/2014 17:19",
@@ -9,7 +9,7 @@
 		"hoverCount" : "JohannesDeselaers 7/23/2014 16:40",
 		"hoverCount:" : "JohannesDeselaers 7/23/2014 16:40",
 		"initialize" : "JohannesDeselaers 7/23/2014 16:41",
-		"menuItemHandleClickWith:" : "sebastiankliem 7/25/2014 15:22",
+		"menuItemHandleClickWith:" : "DominicSauer 7/25/2014 18:19",
 		"mouseDown:" : "JohannesDeselaers 7/23/2014 16:41",
 		"mouseEnter:" : "JohannesDeselaers 7/23/2014 16:41",
 		"mouseLeave:" : "JohannesDeselaers 7/23/2014 16:41",
