@@ -1,3 +1,3 @@
 accessing
 ignoredRules
-	^ ignoredRules
+ ^ ignoredRules

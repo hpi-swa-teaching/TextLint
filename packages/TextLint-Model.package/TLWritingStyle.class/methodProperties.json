@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"allButSentenceConstructionStyle" : "DominicSauer 7/25/2014 14:50",
+		"allButSentenceConstructionStyle" : "jonaskeutel 6/3/2014 19:07",
 		"named:formedBy:" : "JorgeRessia 5/10/2010 11:52",
 		"scientificPaperStyle" : "lr 12/21/2011 18:05" },
 	"instance" : {
 		"+" : "lr 12/21/2011 18:05",
 		"-" : "lr 12/21/2011 18:05",
-		"includes:" : "DominicSauer 7/25/2014 14:50",
+		"includes:" : "JorgeRessia 5/10/2010 11:55",
 		"initializeNamed:formedBy:" : "JorgeRessia 5/10/2010 11:58",
 		"name" : "JorgeRessia 5/10/2010 11:54",
 		"rules" : "JorgeRessia 5/10/2010 11:59" } }

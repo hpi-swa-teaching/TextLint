@@ -1,4 +1,4 @@
-as yet unclassified
+Glamour
 mouseLeave: anEvent
 	super mouseLeave: anEvent.
 	self shouldStep: false.

@@ -1,3 +1,3 @@
 testing
 includes: aRule 
-	^ rules includes: aRule
+	^rules includes: aRule
