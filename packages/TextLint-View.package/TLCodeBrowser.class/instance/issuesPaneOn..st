@@ -44,7 +44,6 @@ issuesPaneOn: browser
 						ifFalse: [
 							String streamContents: [ :stream | stream nextPutAll: (each element processFor: self)] ] ];
 				updateOn: TLFileSaved from: [saveAnnouncer];
-				updateOn: TLStyleChanged from:[styleAnnouncer.];
-				updateOn: TLTextModified from: [modifiedAnnouncer].
+				updateOn: TLStyleChanged from:[styleAnnouncer.].
 			].
 		^ browser

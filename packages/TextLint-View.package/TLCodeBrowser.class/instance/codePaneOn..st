@@ -20,14 +20,11 @@ codePaneOn: browser
 								MultiByteFileStream
 									forceNewFileNamed: file
 									do: [ :stream | stream nextPutAll: text text ].
+								textToCheck := text text asString.
 								saveAnnouncer announce: TLFileSaved.
 							"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
-								] on: $s entitled: 'Save modifications [cmd-s]';
-							act: [ :text |
-								self recheckWithText: text text asString.
-								] on: $r entitled: 'Re-check with modifications  [cmd-r]';
+								] on: $s entitled: 'Save modifications and re-check [cmd-s]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
-							updateOn: TLStyleChanged from:[styleAnnouncer];
-							updateOn: TLTextModified from: [modifiedAnnouncer].].
+							updateOn: TLStyleChanged from:[styleAnnouncer]].
 	
 	^ browser
