@@ -1,4 +1,4 @@
 initializing
 initialize
- rules := OrderedCollection new.
- ignoredRules := OrderedCollection new.
+	rules := OrderedCollection new.
+ 	ignoredRules := OrderedCollection new.

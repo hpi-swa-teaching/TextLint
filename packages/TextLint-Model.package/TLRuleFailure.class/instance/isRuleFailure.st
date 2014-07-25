@@ -1,3 +1,3 @@
 testing
 isRuleFailure
-	^true 
+	^ true 
