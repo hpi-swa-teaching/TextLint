@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 browser
 	^self editView browser

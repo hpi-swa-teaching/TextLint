@@ -22,7 +22,6 @@ codePaneOn: browser
 									do: [ :stream | stream nextPutAll: text text ].
 								textToCheck := text text asString.
 								saveAnnouncer announce: TLFileSaved.
-							"(text pane browser paneNamed: #code) presentations do: [:pres | pres update]."
 								] on: $s entitled: 'Save modifications and re-check [cmd-s]';
 							updateOn: TLFileSaved from: [saveAnnouncer];
 							updateOn: TLStyleChanged from:[styleAnnouncer]].

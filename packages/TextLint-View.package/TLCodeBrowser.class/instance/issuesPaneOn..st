@@ -4,7 +4,6 @@ issuesPaneOn: browser
 	browser transmit 
 		to: #issues; 
 		from: #files;
-	"	from: #styles;"
 		andShow: [:presentation | 
 			(presentation custom: GLMTLTreePresentation new)
 				title: 'Issues';

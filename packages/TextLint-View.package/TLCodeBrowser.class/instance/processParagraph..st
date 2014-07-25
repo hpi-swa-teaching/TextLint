@@ -1,6 +1,5 @@
 element printing
 processParagraph: aParagraph
-	
 	^String streamContents: [ :stream |
 								stream nextPutAll: ' ('; print: aParagraph sentences size; nextPutAll: ' sentences) '.
 								stream nextPutAll: aParagraph text withBlanksTrimmed.

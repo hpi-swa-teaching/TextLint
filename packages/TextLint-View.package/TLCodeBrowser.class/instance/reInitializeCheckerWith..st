@@ -1,6 +1,5 @@
 private
 reInitializeCheckerWith: aStyleName
-	
 	aStyleName = 'All but sentence construction' 
 		ifTrue: [
 			textLintChecker := TLTextLintChecker new.

@@ -1,6 +1,5 @@
 element printing
 processSentence: aSentence
-	
 	^String streamContents: [ :stream |
 								stream nextPutAll: ' ('; print: aSentence words size; nextPutAll: ' words) '.
 								stream nextPutAll: aSentence text withBlanksTrimmed.
