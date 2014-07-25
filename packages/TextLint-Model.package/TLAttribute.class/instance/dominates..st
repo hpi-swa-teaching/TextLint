@@ -1,3 +1,3 @@
 accessing
 dominates: aClass 
-	^false.
+	^ false
