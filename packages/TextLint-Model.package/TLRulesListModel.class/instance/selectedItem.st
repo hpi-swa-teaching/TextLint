@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedItem
  ^self selectionIndex = 0
   ifTrue: [nil]

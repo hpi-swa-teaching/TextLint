@@ -8,8 +8,8 @@ showContextMenu
 		(menu add: 'ignore all: ', each rule name 
 			    target: self selector: #menuItemHandleClickWith: 
 			    argument: each rule) setBalloonText: each rule rationale.
-		(each element text = 'can''t') ifTrue: [
-			(menu add: 'fix to: cannot'
+		(each rule isFixable) ifTrue: [
+			(menu add: 'fix to: ', (each rule suggestFixFor: each element text)
 			 	   target: self selector: #fixRuleHandleClickWith: 
 			  	  argument: each) setBalloonText: each rule rationale]].
 	menu

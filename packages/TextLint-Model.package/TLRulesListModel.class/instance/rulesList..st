@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 rulesList: anObject
  rulesList := anObject

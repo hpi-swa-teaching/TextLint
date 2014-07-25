@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"availableFixes" : "michaelweisz 7/25/2014 16:17",
+		"availableFixes" : "michaelweisz 7/25/2014 17:11",
 		"category" : "JonasKeutel 5/6/2014 19:53",
-		"defaultFix:" : "michaelweisz 7/25/2014 16:18",
-		"isFixable" : "michaelweisz 7/25/2014 14:38",
+		"defaultFix:" : "michaelweisz 7/25/2014 17:12",
+		"isFixable" : "michaelweisz 7/25/2014 17:10",
 		"matchingPattern" : "JorgeRessia 4/26/2011 13:32",
 		"name" : "lr 9/8/2010 10:55",
 		"rationale" : "lr 11/3/2010 19:48",
-		"suggestFixFor:" : "michaelweisz 7/25/2014 16:00" } }
+		"suggestFixFor:" : "michaelweisz 7/25/2014 17:11" } }

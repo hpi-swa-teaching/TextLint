@@ -3,7 +3,7 @@
 		"mouseDown:" : "michaelweisz 6/2/2014 14:53" },
 	"instance" : {
 		"browser" : "michaelweisz 6/2/2014 17:15",
-		"fixRuleHandleClickWith:" : "JohannesDeselaers 7/23/2014 17:08",
+		"fixRuleHandleClickWith:" : "michaelweisz 7/25/2014 17:19",
 		"handlesMouseDown:" : "jonaskeutel 6/10/2014 14:12",
 		"hoverAction:" : "JohannesDeselaers 7/23/2014 16:40",
 		"hoverCount" : "JohannesDeselaers 7/23/2014 16:40",
@@ -18,7 +18,7 @@
 		"ruleFailuresAtCaret" : "jonaskeutel 6/28/2014 11:04",
 		"shouldStep" : "JohannesDeselaers 7/23/2014 16:42",
 		"shouldStep:" : "JohannesDeselaers 7/23/2014 16:42",
-		"showContextMenu" : "jonaskeutel 7/12/2014 01:14",
+		"showContextMenu" : "michaelweisz 7/25/2014 17:13",
 		"step" : "JohannesDeselaers 7/23/2014 16:42",
 		"stepTime" : "JohannesDeselaers 7/23/2014 16:42",
 		"tooltipWithRuleFailures" : "JohannesDeselaers 7/23/2014 16:43" } }

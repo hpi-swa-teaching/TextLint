@@ -5,4 +5,4 @@ defaultFix: aText
 	(aText endsWith: 'n''t') ifTrue: [^ (aText truncateTo:  aText size - 3 ), ' not' ].
 	
 	"all failed. Leave the word unchanged"
-.	^ aText
+	^ aText

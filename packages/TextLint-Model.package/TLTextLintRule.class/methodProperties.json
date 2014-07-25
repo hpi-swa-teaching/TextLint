@@ -5,7 +5,7 @@
 		"categoryDescriptions" : "michaelweisz 7/9/2014 15:06" },
 	"instance" : {
 		"category" : "JonasKeutel 5/6/2014 19:17",
-		"isFixable" : "michaelweisz 7/25/2014 14:52",
+		"isFixable" : "michaelweisz 7/25/2014 17:09",
 		"name" : "JonasKeutel 5/6/2014 09:19",
 		"rationale" : "JorgeRessia 4/2/2010 17:44",
 		"runOn:" : "lr 11/2/2010 07:43",
@@ -16,4 +16,4 @@
 		"runOnSentencesIn:" : "JorgeRessia 6/3/2010 18:30",
 		"runOnWord:" : "lr 11/2/2010 07:42",
 		"runOnWordsIn:" : "JorgeRessia 6/3/2010 18:28",
-		"suggestFixFor:" : "michaelweisz 7/25/2014 14:49" } }
+		"suggestFixFor:" : "michaelweisz 7/25/2014 17:09" } }
