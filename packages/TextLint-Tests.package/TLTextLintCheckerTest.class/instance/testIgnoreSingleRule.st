@@ -16,7 +16,7 @@ testIgnoreSingleRule
 	self assert: checker results first element isPhrase.
 	self assert: (checker results first element text  = 'a lot').
 	
-	checker removeRule: rule1.
+	checker ignoreRule: rule1.
 	
 	self assert: (checker rules size = 1).
 	

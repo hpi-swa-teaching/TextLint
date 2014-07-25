@@ -5,6 +5,6 @@
 		"testAddingStyle" : "DominicSauer 6/18/2014 16:02",
 		"testCheckSingleRule" : "DominicSauer 6/18/2014 16:02",
 		"testEditRuleFailure" : "DominicSauer 6/18/2014 16:03",
-		"testIgnoreSingleRule" : "DominicSauer 7/18/2014 12:39",
-		"testResetTextLintChecker" : "DominicSauer 7/9/2014 14:05",
-		"testUndoIgnoreSingleRule" : "DominicSauer 7/21/2014 20:17" } }
+		"testIgnoreSingleRule" : "DominicSauer 7/25/2014 14:05",
+		"testReactivateSingleRule" : "DominicSauer 7/25/2014 14:16",
+		"testResetTextLintChecker" : "DominicSauer 7/25/2014 14:09" } }
