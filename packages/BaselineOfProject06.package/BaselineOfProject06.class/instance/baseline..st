@@ -3,15 +3,11 @@ baseline: spec
     <baseline>
     spec
         for: #'common' do: [
-             spec 
-                configuration: 'PetitParser config' 
-                with: [ 
-                        spec 
-                            className: 'ConfigurationOfPetitParser'; 
-                            repository: 'http://source.lukas-renggli.ch/petit' ]. 
-            spec    
-                import: 'PetitParser config'. 
             spec
+                package: 'PetitParser' with: 
+					[ spec
+       					repository: 'http://source.lukas-renggli.ch/petit';
+						yourself ];
                 package: 'TextLint-Model' with: [ spec requires: 'PetitParser' ] ];
                 package: 'TextLint-View';
                 package: 'TextLint-Tests' with: [
