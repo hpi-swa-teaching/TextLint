@@ -5,9 +5,10 @@ baseline: spec
         for: #'common' do: [
             spec
                 package: 'PetitParser' with: 
-					[ spec
-       					repository: 'http://source.lukas-renggli.ch/petit';
-						yourself ];
+			[ spec
+				file: 'PetitParser-lr.231';
+       				repository: 'http://source.lukas-renggli.ch/petit';
+				yourself ];
                 package: 'TextLint-Model' with: [ spec requires: 'PetitParser' ] ];
                 package: 'TextLint-View';
                 package: 'TextLint-Tests' with: [
