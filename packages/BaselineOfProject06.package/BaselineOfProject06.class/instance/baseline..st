@@ -6,7 +6,7 @@ baseline: spec
             spec
                 package: 'PetitParser' with: 
 			[ spec
-				file: 'PetitParser-lr.231';
+				file: 'PetitParser-lr.228';
        				repository: 'http://source.lukas-renggli.ch/petit';
 				yourself ];
                 package: 'TextLint-Model' with: [ spec requires: 'PetitParser' ];
